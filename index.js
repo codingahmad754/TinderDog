@@ -3,9 +3,16 @@ import dogsData from './data'
 // import { clickNoBtn } from './utils'
 let isWaiting = false
 let picsDone = false
+let dog = nextDog()
+function nextDog() {
+    let newDog = dogsData.shift()
+    dogsData.push(newDog)
+    let dog = new Dog(newDog)
+    return dog
+}
 
 
-let dog = new Dog(dogsData.shift())
+// let dog = new Dog(nextDog())
 function render() {
     isWaiting = false
     if (dogsData.length >= 0) {
@@ -28,7 +35,7 @@ function clickNoBtn() {
         render()
         isWaiting = true
         setTimeout(() => {
-            dog = new Dog(dogsData.shift())
+            dog = nextDog()
             if (dogsData.length === 0) {
                 picsDone = true
                 alert('all out of dogs for today check back tomorrow!')
@@ -50,10 +57,10 @@ function clickLikeBtn() {
 
         setTimeout(() => {
 
-            dog = new Dog(dogsData.shift())
+            dog = nextDog()
             if (dogsData.length === 0) {
                 picsDone = true
-                alert('all out of dogs for today check back tomorrow!')
+                render()
 
             }
             if (!picsDone) {

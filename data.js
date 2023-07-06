@@ -1,9 +1,9 @@
 const dogsData = [
     {
-        name: "Rex",
-        avatar: "./images/dog-rex.jpg",
+        name: "Major",
+        avatar: "./images/major1.jpeg",
         age: 25,
-        bio: "Art. Literature. Natural wine. Yoga.",
+        bio: "Things I like :Art. Literature. Natural wine. Yoga.",
         hasBeenSwiped: false,
         hasBeenLiked: false
     }, {
@@ -31,8 +31,8 @@ const dogsData = [
         hasBeenLiked: false
     },
     {
-        name: "Rocky",
-        avatar: "./images/rocky.jpg",
+        name: "Major",
+        avatar: "./images/major.jpeg",
         age: 3,
         bio: "Can I have some cheese?",
         hasBeenSwiped: false,
