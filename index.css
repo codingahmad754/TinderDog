@@ -1,0 +1,95 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 5px;
+}
+
+.container {
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    height: 50px;
+    justify-content: space-between;
+}
+
+li img {
+    max-height: 100%;
+    cursor: pointer;
+}
+
+#dog-image {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.dog-card {
+    position: relative;
+}
+
+/* #dog-image {
+    position: relative;
+} */
+
+#dog-info {
+    position: absolute;
+    bottom: 0;
+    left: 20;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* text-align: center; */
+    color: white;
+
+}
+
+#user-input {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#like-badge {
+    display: none;
+    max-width: 40%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: rotate(-30deg);
+    /* top: 50%; */
+    /* bottom: 50%; */
+
+}
+
+#nope-badge {
+    display: none;
+    max-width: 40%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: rotate(-30deg);
+}
+
+button {
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
