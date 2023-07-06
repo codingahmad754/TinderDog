@@ -1,14 +1,14 @@
 const dogsData = [
     {
         name: "Rex",
-        avatar: "images/dog-rex.jpg",
+        avatar: "./images/dog-rex.jpg",
         age: 25,
         bio: "Art. Literature. Natural wine. Yoga.",
         hasBeenSwiped: false,
         hasBeenLiked: false
     }, {
         name: "Bella",
-        avatar: "images/dog-bella.jpg",
+        avatar: "./images/dog-bella.jpg",
         age: 43,
         bio: "Yup, that's my owner. U can meet him if you want",
         hasBeenSwiped: false,
@@ -16,7 +16,7 @@ const dogsData = [
     },
     {
         name: "Teddy",
-        avatar: "images/dog-teddy.jpg",
+        avatar: "./images/dog-teddy.jpg",
         age: 30,
         bio: "How you doin?",
         hasBeenSwiped: false,
@@ -24,7 +24,7 @@ const dogsData = [
     },
     {
         name: "Leo",
-        avatar: "images/leo.jpg",
+        avatar: "./images/leo.jpg",
         age: 1,
         bio: "I like long walks on the beach!",
         hasBeenSwiped: false,
@@ -32,7 +32,7 @@ const dogsData = [
     },
     {
         name: "Rocky",
-        avatar: "images/rocky.jpg",
+        avatar: "./images/rocky.jpg",
         age: 3,
         bio: "Can I have some cheese?",
         hasBeenSwiped: false,
@@ -40,7 +40,7 @@ const dogsData = [
     },
     {
         name: "Teddy",
-        avatar: "images/dog-teddy.jpg",
+        avatar: "./images/dog-teddy.jpg",
         age: 30,
         bio: "How you doin?",
         hasBeenSwiped: false,
